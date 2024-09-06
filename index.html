@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conferência de Jovens</title>
+    <!-- CDN do Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Cabeçalho -->
+    <header class="bg-[#3d1f7c] text-white">
+        <div class="container mx-auto p-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Conferência de Jovens</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#sessao1" class="hover:underline">Sessão 1</a></li>
+                    <li><a href="#sessao2" class="hover:underline">Sessão 2</a></li>
+                    <li><a href="#sessao3" class="hover:underline">Sessão 3</a></li>
+                    <li><a href="#sessao4" class="hover:underline">Sessão 4</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="my-12 px-6">
+        <div class="container mx-auto">
+
+            <!-- Sessão 1 -->
+            <section id="sessao1" class="mb-12">
+                <h2 class="text-2xl font-bold border-b-4 border-[#8C69CC] pb-2 text-[#3d1f7c]">Sessão 1</h2>
+                <div class="mt-6">
+                    <h3 class="text-xl font-semibold text-[#8C69CC]">Setlist de Músicas</h3>
+                    <ul class="list-disc ml-6 mt-2">
+                        <li>Música 1</li>
+                        <li>Música 2</li>
+                        <li>Música 3</li>
+                    </ul>
+                </div>
+                <div class="mt-6">
+                    <h3 class="text-xl font-semibold text-[#8C69CC]">Escala da Banda</h3>
+                    <ul class="list-disc ml-6 mt-2">
+                        <li>Vocal: Nome</li>
+                        <li>Guitarra: Nome</li>
+                        <li>Bateria: Nome</li>
+                    </ul>
+                </div>
+                <div class="mt-6">
+                    <h3 class="text-xl font-semibold text-[#8C69CC]">Áudio das Músicas</h3>
+                    <audio controls class="w-full mt-2">
+                        <source src="audio/musica1.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                    <audio controls class="w-full mt-2">
+                        <source src="audio/musica2.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
+                </div>
+                <div class="mt-6">
+                    <h3 class="text-xl font-semibold text-[#8C69CC]">Letra das Músicas</h3>
+                    <p class="mt-2">Letra da Música 1...</p>
+                    <p class="mt-2">Letra da Música 2...</p>
+                </div>
+            </section>
+
+            <!-- Repita a estrutura para as outras sessões -->
+            
+            <section id="sessao2" class="mb-12">
+                <h2 class="text-2xl font-bold border-b-4 border-[#8C69CC] pb-2 text-[#3d1f7c]">Sessão 2</h2>
+                <!-- Conteúdo da Sessão 2 -->
+            </section>
+            
+            <section id="sessao3" class="mb-12">
+                <h2 class="text-2xl font-bold border-b-4 border-[#8C69CC] pb-2 text-[#3d1f7c]">Sessão 3</h2>
+                <!-- Conteúdo da Sessão 3 -->
+            </section>
+            
+            <section id="sessao4" class="mb-12">
+                <h2 class="text-2xl font-bold border-b-4 border-[#8C69CC] pb-2 text-[#3d1f7c]">Sessão 4</h2>
+                <!-- Conteúdo da Sessão 4 -->
+            </section>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-[#3d1f7c] text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Conferência de Jovens. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
